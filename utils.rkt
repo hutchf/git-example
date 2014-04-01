@@ -1,7 +1,7 @@
 #lang racket
 (require gigls/unsafe)
 ;;; Procedure:
-;;;   nums
+;;;   first-n-numbers
 ;;; Parameters:
 ;;;   n, a positive integer
 ;;; Purpose:
@@ -14,6 +14,6 @@
 ;;;   (length list-of-nums) == n
 ;;;   (list-ref list-of-nums i) = i+1
 ;;;     for all i, 0 <= i < n.
-(define nums
+(define first-n-numbers
   (lambda (n)
     (cdr (iota (+ n 1)))))
