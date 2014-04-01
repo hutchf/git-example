@@ -1,7 +1,7 @@
 #lang racket
 (require gigls/unsafe)
 ;;; File:
-;;;   utils.rkt
+;;;   git-example/utils.rkt
 ;;; Author:
 ;;;   Hutch Freeland
 ;;; Summary:
